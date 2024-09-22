@@ -1,8 +1,9 @@
 import {Element} from "react-scroll";
+import Button from "../components/Button";
 
 export default function Hero() {
   return (
-    <section className="relative pb-40 border-2 max-lg:pt-52 max-lg:pb-36 max-md:pt-36 max-md:pb-32 pt-60 border-amber-400">
+    <section className="relative pb-40 max-lg:pt-52 max-lg:pb-36 max-md:pt-36 max-md:pb-32 pt-60 ">
       <Element name="hero">
         <div className="container">
           <div className="relative z-2 max-w-512 max-lg:max-w-388">
@@ -16,7 +17,7 @@ export default function Hero() {
               We designed XORA AI Video Editor to be an easy to use, quick to
               learn, and surprisingly powerful.
             </p>
-            <button className="uppercase ">Try it now</button>
+            <Button icon="/images/zap.svg">Try it now</Button>
           </div>
         </div>
       </Element>
