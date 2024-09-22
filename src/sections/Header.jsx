@@ -19,7 +19,7 @@ export default function Header() {
           </a>
           <div
             className={clsx(
-              "w-full max-lg:opacity-0 max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:bg-s2",
+              "w-full max-lg:opacity-0 max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:bg-s2 transform transition-all duration-500 ease-in-out",
               open ? "max-lg:opacity-100" : "max-lg:opacity-0"
             )}
           >
